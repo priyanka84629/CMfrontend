@@ -1,0 +1,37 @@
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+  }
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 1em;
+    top: 30%;
+    box-shadow: 0px 4px 22px #dae3e9;
+    background-color: #FFFFFF;
+  }
+  
+  .text-head-2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1em;
+  }
+  .drop-2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-color: #2da5fc;
+    color: #2da5fc;
+  }
+  .btn {
+    margin-bottom: 1em;
+  }
+  

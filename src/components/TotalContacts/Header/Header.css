@@ -1,0 +1,62 @@
+.header{
+    border-bottom: 0.5px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search-bar{
+    background-color: #F2F2F2;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 0.6rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.search-by-email{
+    width: 15rem;
+    background-color: #F2F2F2;
+    border: 0;
+   
+}
+input[type=text]:focus {
+    border: 0px solid #555;
+  }
+
+
+.header-user-admin{
+    display: flex;
+}
+
+.total-contact, .search-bar, .header-user-admin{
+    margin-top: 1em;
+}
+
+.total-contact{
+    color: #454545;
+    margin-left: 2em;
+}
+
+.header-user-admin{
+    margin-right: 2rem;
+}
+
+.header-user-admin-name{
+    font-size: x-small;
+    margin-left: 0.3rem;
+    margin-right: 0;
+}
+.header-user-admin-name > .name{
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.name{
+    font-size: 1rem;
+}
+.admin{
+    font-size: 0.8rem;
+}

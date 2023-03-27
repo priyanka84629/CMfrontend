@@ -1,0 +1,74 @@
+.side {
+  width: 15vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: #cef3ff;
+  position: relative;
+}
+
+.side-upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.logo {
+  color: #0884ff;
+  margin-top: 1.75rem;
+  margin-left: 1.5rem;
+}
+
+.side-dashboard {
+  margin-left: 2.688rem;
+  margin-top: 3.25rem;
+  margin-bottom: 2.188rem;
+}
+.total {
+  margin-left: 0.5rem;
+  color: #ffffff;
+}
+.line {
+  border: 1px solid #ffffff;
+  margin-left: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+.dash {
+  margin-left: 0.688rem;
+}
+.side-dashboard > h4 {
+  color: #181818;
+}
+.logout{
+    
+}
+
+.side-totalContact {
+  background: #2da5fc;
+  border-radius: 0.5em;
+  margin:1rem;
+}
+
+.total-contact {
+  color: #ddd;
+}
+.logout-div{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    cursor: pointer;
+    border-top: 2px solid rgb(255, 255, 255);
+    padding:auto;
+    text-align: center;
+}
+.logout-div:hover{
+  border-top: 2px solid aquamarine;
+}
+.log-out-cont{
+  min-width: 10px;
+  margin: auto;
+  margin-top:10%;
+}
+.logouticon{
+  margin: 10px;
+  margin-right: 1px;
+}

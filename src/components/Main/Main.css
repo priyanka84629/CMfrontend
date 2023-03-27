@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    position: fixed;
+}
+.mainbar{
+    position: absolute;
+    left:15%;
+}

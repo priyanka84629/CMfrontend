@@ -1,0 +1,63 @@
+.totalContact {
+  width: 82vw;
+  height: 100vh;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  background: white;
+}
+
+.thead {
+    position: relative;
+  background: #b3dfff;
+  box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1),
+    inset 1px 1px 20px rgba(254, 134, 39, 0.1);
+  border-radius: 15px;
+}
+
+.abcd {
+  display: flex;
+  justify-content: space-between;
+}
+.tbody{
+    border-radius: 15px;
+    overflow-y:scroll;
+}
+.abcd,
+.sort > img {
+  margin-right: 0.3rem;
+}
+
+.image-sort {
+  margin-right: 1rem;
+}
+
+tbody tr:nth-child(odd){
+
+border-radius: 15px;
+}
+tr:nth-child(even){
+    background: rgba(178, 223, 255, 0.31);
+border-radius: 10px;
+}
+
+.tableaction {
+  display: flex;
+}
+
+.table-row-edit {
+  margin-right: 2rem;
+}
+.table{
+    margin: 1rem;
+}
+.popup{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 2;
+
+}
+.email:hover{
+    color: #2DA5FC;
+}
