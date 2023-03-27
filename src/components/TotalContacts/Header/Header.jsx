@@ -12,6 +12,7 @@ function Header(props) {
 
   useEffect(() => {
     searchedEmail();
+    // eslint-disable-next-line
   }, [search]);
 
   const searchedEmail = async () => {
